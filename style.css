@@ -1,0 +1,72 @@
+
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 80px;
+    margin-bottom: -80px;
+    z-index: 99;
+	.les-liens{
+		display: flex;
+		flex-direction: row;
+		column-gap: 24px;
+		}
+}
+#les-liens a{
+	text-decoration-color: #0D3D38;
+}
+
+
+ body {
+ 	display: flex;
+ 	flex-direction: column;
+ 	align-items: RIGHT;
+ 	background-color: #E6F6EB;
+}
+
+.banner{
+	background-image: url(image/tente2.jpg);
+    height: 639px;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    padding-left: 8%;
+
+}
+
+.contenu{
+    width: 476px;
+    a{
+	    background: black;
+	    color: white;
+	    text-decoration: none;
+	    padding: 12px;
+	    border-radius: 4px;
+	    box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+  }
+ }
+
+
+#contact-container{
+gap :20px;
+background-color: green ;
+display: flex;
+flex-direction: row;
+}
+.image{
+	width: 360px;
+	img{
+		width: 100%
+	}
+}
+.container {
+  text-align: center;
+}
+
+.Produits{
+  text-align: center;
+}
+
+
